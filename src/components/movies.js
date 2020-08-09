@@ -140,37 +140,36 @@ const Movies = () => {
     return (
         <>
             <div className="mt-50">
-                <div className="mt-50" style={{ display: "flex", maxWidth: "1024px", margin: "0 auto" }}>
-                    <div style={{ backgroundColor: "white", padding: "10px" }}>
+                <div className="mt-50" style={{ display: "flex", maxWidth: "90%", margin: "0 auto" }}>
+                    <div style={{ backgroundColor: "white", padding: "10px", width: "30%" }}>
                         <h1 style={{ textAlign: "center", marginTop: '25px', marginBottom: '25px' }}>Form Movie</h1>
                         <form onSubmit={handleSubmit}>
                             <div className="form-group">
                                 <label> Title : </label>
-                                <input className="form-control" type="text" name='title' value={input.title} onChange={handleChange} placeholder="title" />
-                            </div>
-                            <div className="form-group">
-                                <label> Description: </label>
-                                <input className="form-control" type="text" name='description' value={input.description} onChange={handleChange} placeholder="description" />
+                                <input className="c-form-control" type="text" name='title' value={input.title} onChange={handleChange} placeholder="title" />
                             </div>
                             <div className="form-group">
                                 <label> Year: </label>
-                                <input className="form-control" type="number" name='year' value={input.year} onChange={handleChange} placeholder="year ex:2000" />
+                                <input className="c-form-control" type="text" name='year' value={input.year} onChange={handleChange} placeholder="ex:2000" />
                             </div>
                             <div className="form-group">
                                 <label> Duration : </label>
-                                <input className="form-control" type="number" name='duration' value={input.duration} onChange={handleChange} placeholder="duration in minute" />
+                                <input className="c-form-control" type="text" name='duration' value={input.duration} onChange={handleChange} placeholder="duration in minutes" />
                             </div>
                             <div className="form-group">
                                 <label> Genre : </label>
-                                <input className="form-control" type="text" name='genre' value={input.genre} onChange={handleChange} placeholder="genre ex:drama,horror" />
+                                <input className="c-form-control" type="text" name='genre' value={input.genre} onChange={handleChange} placeholder="ex:drama,horror" />
                             </div>
                             <div className="form-group">
                                 <label> Rating : </label>
-                                <input className="form-control" type="number" name='rating' value={input.rating} onChange={handleChange} placeholder="rating only from 1 to 10" />
+                                <input className="c-form-control" type="number" name='rating' value={input.rating} onChange={handleChange} placeholder="rating from 1 to 10" />
+                            </div>
+                            <div className="form-group">
+                                <label> Description: </label>
+                                <textarea className="c-form-control" name='description' value={input.description} onChange={handleChange} placeholder="description" rows="10" />
                             </div>
                             <br />
                             <button type="submit" className="btn btn-primary"> submit</button>
-                            {alert}
                         </form>
                     </div>
                     <div style={{ backgroundColor: "white", padding: "10px" }}>
