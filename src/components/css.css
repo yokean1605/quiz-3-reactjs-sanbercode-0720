@@ -1,0 +1,187 @@
+/* Made with love by Mutiullah Samim*/
+
+body {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.container{
+  height: 100%;
+  align-content: center;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.card {
+  /* height: 370px; */
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0,0,0,0.5) !important;
+  padding: 20px;
+}
+.h100vh {
+  height: 100vh;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+  outline: 0 0 0 0  !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.full-container {
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #fff;
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 0 15px;
+}
+
+.table-list-movies {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  width: 860px;
+  overflow-x: scroll;
+}
+
+.table-list-movies td, .table-list-movies th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-list-movies tr:nth-child(even){background-color: #f2f2f2;}
+
+.table-list-movies tr:hover {background-color: #ddd;}
+
+.table-list-movies th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+button {
+  padding: 4px 6px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: .2rem;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+.c-form-control {
+  display: block;
+  width: 96%;
+  padding: 4px 6px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+.c-custom {
+  width: 350px;
+}
+
+.btn-edit {
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.mt-50 {
+  margin-top: 58px;
+}
+
+.border-container {
+  border: 2px solid #e8e8e8;
+  padding: 10px;
+  min-height: 100%;
+}
+a {
+  text-decoration: none;
+}
